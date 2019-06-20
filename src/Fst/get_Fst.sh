@@ -1,0 +1,1 @@
+for i in NG_cluster*; do for j in NG_cluster*; do a=${i#NG_cluster}; b=${j#NG_cluster}; if (( $(echo ${a%.txt} ${b%.txt} | awk '{print ($1 < $2)}') )); then echo ${a%.txt} ${b%.txt} | sed 's/ /\t/g' >> cluster_pairs_level1.txt ; fi ; done; done
