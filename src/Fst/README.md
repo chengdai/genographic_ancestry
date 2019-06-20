@@ -1,1 +1,1 @@
-plink was used to calculate Fst. The scripts in this folder demonstrate how to generate pairs of clusters to investigate - `get_Fst.sh` - and then perform the pairwise calculations (`make_cluster_files.sh`)
+plink was used to calculate Fst. The scripts in this folder demonstrate how to generate pairs of clusters to investigate - `get_Fst.sh` - and then perform the pairwise calculations - `make_cluster_files.sh`.
